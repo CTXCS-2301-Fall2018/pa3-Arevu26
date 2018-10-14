@@ -42,14 +42,14 @@ main:
     @Your modifications will begin at this point
 
 
-    CMP R1, #1       @Check for "peanuts"
+    CMP R1, #1       @ Checks user input and if userinput =1
     MOVEQ R3, #75    @ If user enters 1, The price 75 is moved to R3
 
 
-    CMP R1, #2       @Check for "chocolate"
+    CMP R1, #2       @ Checks user input and if userinput =2
     MOVEQ R3, #125   @ If user enters 2, The price 125 is moved to R3
 
-    CMP R1, #3       @Check for "pretzels"
+    CMP R1, #3       @ Checks user input and if userinput =3
     MOVEQ R3, #90    @If user enters 3, The price 90 is moved to R3
 
 
